@@ -8,10 +8,15 @@
 
  ######  How to use 
  to deploy your XAF app to a linux server do the following
- -add execute permissions to the install script with the following command
- chmod +x /XafDemo.BLazor.Server/InstallApp.sh
 
- -Execute the script
+- add execute permissions to the install script with the following command
+```
+chmod +x /XafDemo.BLazor.Server/InstallApp.sh
+```
+
+- Execute the script
+```
  sudo ./ XafDemo.BLazor.Server/InstallApp.sh
+ ```
 
 
