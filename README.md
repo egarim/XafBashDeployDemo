@@ -33,7 +33,7 @@ sudo ./InstallApp.sh 192.168.122.154 joche /home/joche/ XafDemo.Blazor.Server
 
 
 
-For this demo I have set the application to always update the database you can see here [GitHub Pages](https://github.com/egarim/XafBashDeployDemo/blob/1ccc97f755300d3a9052b6175739152794efc985/XafDemo.Blazor.Server/BlazorApplication.cs#L41)
+For this demo I have set the application to always update the database you can see here [BlazorApplication.cs](https://github.com/egarim/XafBashDeployDemo/blob/1ccc97f755300d3a9052b6175739152794efc985/XafDemo.Blazor.Server/BlazorApplication.cs#L41)
 
 
 ###### Install the app
