@@ -19,9 +19,9 @@ chmod +x InstallApp.sh
 - Execute the script
 
 You shoul replace the following parameters
-replace 192.168.122.154 for the ip of your server
-replace joche for the username of your server
-replace /home/joche/ for the path where you want to install the app in your server
+- replace 192.168.122.154 for the ip of your server
+- replace joche for the username of your server
+- replace /home/joche/ for the path where you want to install the app in your server
 
 
 ```
