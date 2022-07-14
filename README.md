@@ -37,7 +37,7 @@ sudo ./install_XafDemo.Blazor.Server.sh
 To check the service status you should run the following command
 ```
 
-sudo ./install_XafDemo.Blazor.Server.sh
+sudo ./status_XafDemo.Blazor.Server.sh
 
 ```
 
