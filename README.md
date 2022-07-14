@@ -11,12 +11,35 @@
 
 - add execute permissions to the install script with the following command
 ```
-chmod +x /XafDemo.BLazor.Server/InstallApp.sh
+cd XafDemo.Blazor.Server
+chmod +x InstallApp.sh
+
 ```
 
 - Execute the script
 ```
- sudo ./ XafDemo.BLazor.Server/InstallApp.sh
+
+sudo ./InstallApp.sh 192.168.122.154 joche /home/joche/ XafDemo.Blazor.Server
+
  ```
+
+For this demo I have set the application to always update the database you can see here [GitHub Pages](https://github.com/egarim/XafBashDeployDemo/blob/1ccc97f755300d3a9052b6175739152794efc985/XafDemo.Blazor.Server/BlazorApplication.cs#L41)
+
+
+###### Install the app
+after the application is deploy you need to ssh to your server and install it
+
+```
+
+sudo ./install_XafDemo.Blazor.Server.sh
+
+```
+To check the service status you should run the following command
+```
+
+sudo ./install_XafDemo.Blazor.Server.sh
+
+```
+
 
 
